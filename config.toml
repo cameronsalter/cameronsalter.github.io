@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Test New Hugo Site'
+theme = 'cactus'
+
+[params]
+
+  colortheme = "dark" # dark, light, white, or classic
+
+
+  description = "Some hompage text"
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "python reference"
+url = "/py_ref"
+
+weight = 2

@@ -1,0 +1,18 @@
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "themes/risotto"]
+	path = themes/risotto
+	url = https://github.com/joeroe/risotto.git
+[submodule "themes/personal-site"]
+	path = themes/personal-site
+	url = https://github.com/wisnuwiry/personal-site
+[submodule "themes/cactus"]
+	path = themes/cactus
+	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
+[submodule "academic-kickstart"]
+	path = academic-kickstart
+	url = https://github.com/sourcethemes/academic-kickstart.git
+[submodule "themes/academic"]
+	path = themes/academic
+	url = https://github.com/sourcethemes/academic-kickstart.git
