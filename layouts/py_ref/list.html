@@ -1,0 +1,35 @@
+{{ define "main" }}
+<!--List page used for python reference-->
+<!-- Defines "main" block of baseof template -->
+<main>
+<h1 style="color:grey; font-size:30px;">Python reference</h3>      
+
+    <!--Basics-->
+    <div style="border: 3px solid grey; margin:10px; padding:10px; ">
+        <h3 style="color:grey; font-size:24px;">Basics</h3>          
+            <ul>
+                {{ range $page := .Pages }}  
+                    {{ if eq (path.Dir $page) "Page(/py_ref/Basics" }}
+                        <a href="{{.Permalink}}">{{$page.Title}}</a><br>
+                    {{end}}
+                {{ end }}
+            </ul>
+    </div>
+
+    <!-- test to see if I can loop over directories in py ref.
+        Can't find how to get URL of folders, so gave up.
+    <div style="border: 1px solid grey; margin:10px; padding:10px; ">
+            <h3 style="color:grey; font-size:24px;">Test loop</h3>          
+                <ul>
+                    {{ range os.ReadDir "content/py_ref"}}                        
+                        {{if eq .IsDir true}}
+                            {{.Name}}
+                            
+                        {{end}}
+                    {{ end }}
+                </ul>
+    </div>
+    -->
+
+</main>
+{{ end }}

@@ -1,14 +1,18 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Test New Hugo Site'
+title = 'My website'
 theme = 'cactus'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [params]
 
   colortheme = "dark" # dark, light, white, or classic
 
 
-  description = "Some hompage text"
+  description = "Hompage text defined in config.toml"
 
 [[menu.main]]
 name = "All posts"
