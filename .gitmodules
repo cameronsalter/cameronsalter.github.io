@@ -16,3 +16,9 @@
 [submodule "themes/academic"]
 	path = themes/academic
 	url = https://github.com/sourcethemes/academic-kickstart.git
+[submodule "ga-hugo-theme"]
+	path = ga-hugo-theme
+	url = https://github.com/giraffeacademy/ga-hugo-theme.git
+[submodule "themes/ga-hugo-theme"]
+	path = themes/ga-hugo-theme
+	url = https://github.com/giraffeacademy/ga-hugo-theme.git
